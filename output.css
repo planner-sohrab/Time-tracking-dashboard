@@ -737,12 +737,13 @@ video {
   margin-right: 2rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mt-8 {
-  margin-top: 2rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .box-border {
@@ -1726,10 +1727,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1812,10 +1809,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-x {
@@ -2466,12 +2459,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.ring-2 {
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-
 .ring-1 {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
@@ -2489,10 +2476,6 @@ video {
 
 .ring-offset-2 {
   --tw-ring-offset-width: 2px;
-}
-
-.ring-offset-4 {
-  --tw-ring-offset-width: 4px;
 }
 
 .blur {
@@ -2703,6 +2686,10 @@ video {
     grid-column: span 9 / span 9;
   }
 
+  .sm\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .sm\:mt-8 {
     margin-top: 2rem;
   }
@@ -2725,6 +2712,14 @@ video {
 
   .sm\:flex-col {
     flex-direction: column;
+  }
+
+  .sm\:place-items-center {
+    place-items: center;
+  }
+
+  .sm\:place-items-stretch {
+    place-items: stretch;
   }
 
   .sm\:items-start {
